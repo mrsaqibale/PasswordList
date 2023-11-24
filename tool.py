@@ -13,6 +13,6 @@ def commit_and_push(line):
         commitMe(line)
             
 with open(input_file, 'r') as infile:
-    for i in range(996):
+    for i in range(997):
         line = infile.readline()
         commit_and_push(line)
